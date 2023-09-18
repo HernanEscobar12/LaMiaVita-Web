@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postulate</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+  <!--Script de reCaptcha -->
+  <script async src="https://www.google.com/recaptcha/api.js"></script>
+
+
+
+</head>
+
+<body>
+  
+   
+  <div class="container mt-3">
+    <div class="row d-flex justify-content-around">
+      <div class="col-xs-12 col-lg-5 pt-2">
+        <div class="card">
+
+           
+          <img src="images/MiaVita.jpg" class="img-fluid" alt="BannerPostulate">
+
+             
+          <div class="card-body px-lg-5 pt-0">
+
+               
+              <form class="text-center" style="color: #c21313;"  method="POST" enctype="multipart/form-data">
+
+               
+                <div class="md-form mt-3">
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                    <label for="nombre">Nombre</label>
+                </div>
+
+                
+                <div class="md-form">
+                    <input type="tel" id="tel" name="telefono" class="form-control" required>
+                    <label for="tel">Teléfono</label>
+                </div>
+
+                 
+                <div class="md-form">
+                    <input type="email" id="email" name="email" class="form-control">
+                    <label for="email">E-mail</label>
+                </div>
+
+                 
+                <div class="md-form">
+                  <input type="text" id="zona" name="zona" class="form-control">
+                  <label for="zona">Zona de Residencia</label>
+                </div>
+
+                 
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <label class="input-group-text">Puesto</label>
+                  </div>
+                  <select class="custom-select" name="area" required>
+                    <option value="" disabled selected>Seleccione</option>
+                    <option value="Bachero">Bachero</option>
+                    <option value="Cocinero" >Cocinero</option>
+                    <option value="Mozo" >Mozo</option>
+                    <option value="Comis" >Comis</option>
+                    <option value="Recepcionista" >Recepcionista</option>
+                    <option value="Encargado/Gerente" >Encargado/Gerente</option>
+                    <option value="Valet Parking" >Valet Parking</option>
+                    <option value="Mantenimiento" >Mantenimiento</option>
+                  </select>
+                </div>
+
+                 
+                <div class="md-form">
+                    <textarea id="comentario" name="comentario" class="form-control md-textarea" rows="5" required></textarea>
+                    <label class="font-weight-bold" for="comentario">Reseña de tu experiencia: </label>
+                </div>
+                
+                  
+                 
+                <label for="">Dejanos tu CV (Opcional)</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroupFileAddon01">Cargar</span>
+                  </div>
+                  <div class="custom-file">
+                    <input type="file" name="archivo"  class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                    <label class="custom-file-label" for="inputGroupFile01"></label>
+                  </div>
+                </div>
+
+                <br>
+                                 
+                <button class="btn btn-outline-info btn-rounded btn-block z-depth-0 my-4 waves-effect" type="submit">Enviar</button> 
+              </form>
+                  
+                  
+          </div>
+        </div>
+      </div>
+    </div>    
+  </div>
+ 
+
+
+
+
+</body>
+</html>

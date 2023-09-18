@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos/contacto-estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@600&display=swap" rel="stylesheet">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header>
+    <div class="contenedor">
+      <div class="menu">
+        <a href="index.html">
+          <img class="logo-inicio" src="images/LA MIA VITA  -Logo-modified.png" alt="Restaurante" /> </a>
+        <nav>
+          <ul class="lista">
+            <a href="/index.html#nosotros">
+              <li>Nuestra Historia</li>
+            </a>
+            <a href="/index.html#especialidades">
+              <li>Especialidades</li>
+            </a>
+            <a href="contacto.html">
+              <li>Contacto</li>
+            </a>
+            <li>Reserva</li>
+          </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="contenedor-contacto">
+    <div class="contacto">
+      <h1><strong>Contacto</strong></h1>
+      <form action="procesar.html" method="post">
+        <label for="TxtApellido">Apellido:</label>
+        <input type="text" name="apellido" id="TxtApellido" placeholder="Ingrese apellido" minlength="2" maxlength="20"
+          title="Apellido" title="Apellido" required /><br> <br>
+
+
+        <label for="TxtNombre">Nombre: </label>
+        <input type="text" name="apellido" id="TxtApellido" placeholder="Ingrese  Nombre" minlength="2" maxlength="20"
+          title="Apellido" title="Apellido" required /><br><br>
+
+        <label for="TxtEmail">Email</label> <input type="email" name="email" id="TxtEmail" required> <br> <br>
+        <label for="TxtTelefono">Telefono</label><input type="tel" name="telefono" id="TxtTelefono" required><br><br>
+
+        <label for="selHorario">Motivo </label>
+        <select name="horario" id="selHorario" required>
+          <option value="comercial"> Comercial </option>
+          <option value="eventos">Eventos</option>
+          <option value="consulta"> Consulta </option>
+          <option value="rrhh">RRHH</option>
+        </select> <br><br>
+
+        <label for="TxtComentarios"> Comentarios </label>
+        <textarea name="Comentarios" id="TxtComentarios" cols="50" rows="5" resize="none" ></textarea> <br> <br>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="limpiar" />
+      </form>
+    </div>
+    <img src="images/LA MIA VITA  -Logo-modified.png" alt="">
+  </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <label for="">Dias de Contacto: </label>
+<input type="checkbox" name="lunes" id="" /> Lunes    
+<input type="checkbox" name="martes" id="" /> Martes
+<input type="checkbox" name="miercoles" id="" /> Miercoles
+<input type="checkbox" name="jueves" id="" /> Jueves
+<input type="checkbox" name="viernes" id="" /> Viernes
+<input type="checkbox" name="sabado" id="" /> Sabado
+<input type="checkbox" name="domingo" id="" /> Domingo
+<br> <br> -->

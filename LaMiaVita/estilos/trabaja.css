@@ -1,0 +1,86 @@
+.contenedor{
+    background: url(/images/ingredientes-italianos-apetitosos-frescos-sabrosos-comida-fondo-oscuro-listo-cocinar-inicio-italiano-comida-saludable-concepto-cocina-viraje_1309-219.jpg);
+}
+
+a{
+    text-decoration:none;
+}
+
+li{
+    color: #ffffff;
+    text-shadow: 7px 7px 7px #000000;
+    font-size: 30px;
+    list-style:none;
+    margin-right: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.lista{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.logo-inicio{
+    width: 200px;
+   }
+
+body{
+    
+    font-family:'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    opacity: 100%;
+    height: 20%;
+    background-size:cover;
+}
+
+.center{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #07641d;
+    margin-bottom: 0.9375re
+}
+
+.titular{
+    font-family: "Biloxi","Helvetica","Arial","Sans-serif";
+    font-weight: 500;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #710606;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* border: 0; */
+    /* font-size: 100%; */
+    /* vertical-align: baseline; */
+}
+
+.lista{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    align-content: center;
+}
+
+.parrafo-general{
+    font-size: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+    
+}
